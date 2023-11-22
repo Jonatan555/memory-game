@@ -1,6 +1,5 @@
-    const playerName = document.querySelector(".playername");
+const playerName = document.querySelector(".playerName");
 
-    const storagePlayer =
-    localStorage.getItem("@memoryGame:playername");
+const storagePlayerName = localStorage.getItem("@memoryGame:playerName");
 
-    playerName.innerHTML = storagePlayer;
+playerName.innerHTML = storagePlayerName;
