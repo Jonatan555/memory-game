@@ -41,7 +41,7 @@ const cardNames = [
     "card_2",
     "card_3",
     "card_4",
-    "card_5 ",
+    "card_5",
     "card_6",
     "card_7",
     "card_8",
@@ -60,7 +60,7 @@ const cardNames = [
 
 const arrayCardsName = cardNames
 .sort(() => Math.random() - 0.5)
-.filter((Value, index) => index < 12 );
+.filter((value, index) => index < 12 );
 
 
 const sortedCards =[...arrayCardsName,...arrayCardsName] .sort(
