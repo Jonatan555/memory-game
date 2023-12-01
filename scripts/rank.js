@@ -16,8 +16,8 @@ function createBodyTableRank() {
     }
     
     bodyTableRank.innerHTML = "";
-    console.log(storageRank);
-  for (let i = 0; 1 < 10; i++) {
+    for (let i = 0; i < 10; i++) {
+      console.log(storageRank);
       bodyTableRank.innerHTML += `
         <tr>
             <td>${i + 1}</td>
